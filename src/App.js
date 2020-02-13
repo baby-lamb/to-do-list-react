@@ -8,9 +8,9 @@ class App extends Component {
     super(props);
     this.state={
       contents:[
-        {id:1, title:'to do list'},
-        {id:2, title:'check list'},
-        {id:3, title:'calender'},
+        {id:1, title:'to do list', mode:'todolist'},
+        {id:2, title:'check list', mode:'checklist'},
+        {id:3, title:'calender', mode:'calender'},
 
       ]
     }
