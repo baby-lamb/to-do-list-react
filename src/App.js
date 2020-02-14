@@ -18,7 +18,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Main_header data={this.state.contents}></Main_header>
+        <Main_header data={this.state.contents}
+        
+        ></Main_header>
         <Contents></Contents>
       </div>
     );
