@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Contents.css';
+import './Contents_todolist.css';
 
 
 
@@ -33,4 +33,4 @@ class Contents extends Component {
 
 
 
-export default Contents;
+export default Contents_todolist;

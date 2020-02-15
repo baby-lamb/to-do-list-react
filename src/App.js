@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Main_header from './components/Main_header';
-import Contents from './components/Contents';
+import Contents_todolist from './components/Contents_todolist';
 
 class App extends Component {
   constructor(props){
@@ -18,10 +18,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Main_header data={this.state.contents}
-        
-        ></Main_header>
-        <Contents></Contents>
+        <Main_header data={this.state.contents}></Main_header>
+        <Contents_todolist></Contents_todolist>
       </div>
     );
   }
