@@ -19,7 +19,7 @@ class App extends Component {
     return (
       <div className="App">
         <Main_header data={this.state.contents}></Main_header>
-        <Contents_todolist></Contents_todolist>
+        <Contents_todolist data={this.state.contents}></Contents_todolist>
       </div>
     );
   }
