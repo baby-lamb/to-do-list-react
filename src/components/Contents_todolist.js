@@ -3,7 +3,7 @@ import './Contents_todolist.css';
 
 
 
-class Contents extends Component {
+class Contents_todolist extends Component {
   render() {
 
 
