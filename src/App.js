@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Main_header from './components/Main_header';
 import Contents_todolist from './components/Contents_todolist';
+import Contents_checklist from './components/Contents_checklist';
+import Contents_calender from './components/Contents_calender';
 
 class App extends Component {
   constructor(props){
@@ -19,7 +21,9 @@ class App extends Component {
     return (
       <div className="App">
         <Main_header data={this.state.contents}></Main_header>
-        <Contents_todolist data={this.state.contents}></Contents_todolist>
+        <Contents_todolist></Contents_todolist>
+        <Contents_checklist></Contents_checklist>
+        <Contents_calender></Contents_calender>
       </div>
     );
   }

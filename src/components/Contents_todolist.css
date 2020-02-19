@@ -18,3 +18,10 @@ section ul li{
   padding:0 10px;
   box-sizing: border-box;
 }
+.btn{
+  width:15px;
+  height:15px;
+  background-color: #fff;
+  border:2px solid #888;
+
+}
