@@ -11,7 +11,16 @@ class Contents_checklist extends Component {
 
     return (
       <section>
-
+        <div>November 2019</div>
+        <ul>
+          <li>SUN</li>
+          <li>MON</li>
+          <li>TUE</li>
+          <li>WED</li>
+          <li>THU</li>
+          <li>FRI</li>
+          <li>SAT</li>
+        </ul>
       </section>
     );
   }
