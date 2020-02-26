@@ -9,3 +9,7 @@ section div{
   height:50px;
   background-color: #fff;
 }
+section ul li{
+  width:12%;
+  height:12%;
+}
