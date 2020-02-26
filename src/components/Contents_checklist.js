@@ -22,7 +22,7 @@ class Contents_checklist extends Component {
           <li>SAT</li>
         </ul>
         <ul>
-          <li>1</li>
+          <li><input type="button" /></li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
