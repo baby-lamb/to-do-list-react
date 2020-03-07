@@ -11,18 +11,19 @@ class Contents_checklist extends Component {
 
     return (
       <section>
-        <div>November 2019</div>
+        <div>Month</div>
+        <div>하루에 물 한잔 이상 마시기</div>
         <ul>
-          <li>SUN</li>
-          <li>MON</li>
-          <li>TUE</li>
-          <li>WED</li>
-          <li>THU</li>
-          <li>FRI</li>
-          <li>SAT</li>
+          <li>Sun</li>
+          <li>Mon</li>
+          <li>The</li>
+          <li>Wen</li>
+          <li>Thu</li>
+          <li>Fri</li>
+          <li>Sat</li>
         </ul>
         <ul>
-          <li><input type="button" /></li>
+          <li>1</li>
           <li>2</li>
           <li>3</li>
           <li>4</li>
