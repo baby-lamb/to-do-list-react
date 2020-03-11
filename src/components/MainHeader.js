@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Main_header.css';
+import './MainHeader.css';
 
 
 
-class Main_header extends Component {
+class MainHeader extends Component {
   render() {
     var list = [];
     var data = this.props.data;
@@ -35,4 +35,4 @@ class Main_header extends Component {
 
 
 
-export default Main_header;
+export default MainHeader;

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Contents_todolist.css';
+import './ContentsTodolist.css';
 
 
 
-class Contents_todolist extends Component {
+class ContentsTodolist extends Component {
   render() {
 
 
@@ -33,4 +33,4 @@ class Contents_todolist extends Component {
 
 
 
-export default Contents_todolist;
+export default ContentsTodolist;

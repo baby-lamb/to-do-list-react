@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './Contents_calender.css';
+import './ContentsCalender.css';
 
 
 
-class Contents_calender extends Component {
+class ContentsCalender extends Component {
   render() {
 
 
@@ -38,4 +38,4 @@ class Contents_calender extends Component {
 
 
 
-export default Contents_calender;
+export default ContentsCalender;

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Main_header from './components/Main_header';
-import Contents_todolist from './components/Contents_todolist';
-import Contents_checklist from './components/Contents_checklist';
-import Contents_calender from './components/Contents_calender';
+import MainHeader from './components/MainHeader';
+import ContentsTodolist from './components/ContentsTodolist';
+import ContentsChecklist from './components/ContentsChecklist';
+import ContentsCalender from './components/ContentsCalender';
 
 class App extends Component {
   constructor(props){
@@ -20,10 +20,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Main_header data={this.state.contents}></Main_header>
-        <Contents_todolist></Contents_todolist>
-        <Contents_checklist></Contents_checklist>
-        <Contents_calender></Contents_calender>
+        <MainHeader data={this.state.contents}></MainHeader>
+        <ContentsTodolist></ContentsTodolist>
+        <ContentsChecklist></ContentsChecklist>
+        <ContentsCalender></ContentsCalender>
       </div>
     );
   }
