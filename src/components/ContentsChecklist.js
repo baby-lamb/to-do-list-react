@@ -10,7 +10,7 @@ class ContentsChecklist extends Component{
 
 
     return (
-      <section>
+      <section id='checklist'>
         <div>Month</div>
         <div>하루에 물 한잔 이상 마시기</div>
         <ul>

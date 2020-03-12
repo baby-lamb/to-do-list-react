@@ -10,9 +10,9 @@ class App extends Component {
     super(props);
     this.state={
       contents:[
-        {id:1, title:'to do list', mode:'todolist'},
-        {id:2, title:'check list', mode:'checklist'},
-        {id:3, title:'calender', mode:'calender'},
+        {id:1, title:'To do list', mode:'todolist'},
+        {id:2, title:'Check list', mode:'checklist'},
+        {id:3, title:'Calender', mode:'calender'},
 
       ]
     }
@@ -22,11 +22,12 @@ class App extends Component {
       <div className="App">
         <MainHeader data={this.state.contents}></MainHeader>
         <ContentsTodolist></ContentsTodolist>
-        <ContentsChecklist></ContentsChecklist>
-        <ContentsCalender></ContentsCalender>
       </div>
     );
   }
 }
+
+// <ContentsChecklist></ContentsChecklist>
+// <ContentsCalender></ContentsCalender>
 
 export default App;

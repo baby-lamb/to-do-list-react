@@ -1,13 +1,13 @@
-section{
+#todolist{
   width:500px;
-  height:100%;
+  height:550px;
   border-radius: 10px;
   box-sizing: border-box;
   overflow: hidden;
   padding:25px;
   background-color: rgb(215, 236, 240);
 }
-section ul li{
+#todolist ul li{
   width:100%;
   height:40px;
   margin-bottom:5px;
@@ -18,7 +18,7 @@ section ul li{
   padding:0 10px;
   box-sizing: border-box;
 }
-.btn{
+#todolist.btn{
   width:15px;
   height:15px;
   background-color: #fff;
