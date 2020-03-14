@@ -5,9 +5,9 @@ import './MainHeader.css';
 
 class MainHeader extends Component {
   render() {
-    var list = [];
-    var data = this.props.data;
-    var i = 0;
+    const list = [];
+    const data = this.props.data;
+    let i = 0;
     while(i < data.length){
       list.push(<li key={data[i].id}><a href={"/components/"+data[i].id}
       onClick={
