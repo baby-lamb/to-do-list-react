@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import MainHeader from './components/MainHeader';
 import ContentsTodolist from './components/ContentsTodolist';
-import ContentsChecklist from './components/ContentsChecklist';
-import ContentsCalender from './components/ContentsCalender';
+// import ContentsChecklist from './components/ContentsChecklist';
+// import ContentsCalender from './components/ContentsCalender';
 
 class App extends Component {
   constructor(props){
