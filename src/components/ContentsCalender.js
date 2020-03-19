@@ -23,12 +23,12 @@ class ContentsCalender extends Component {
         </ul>
         <ul>
           <li><input type="button" /></li>
-          <li>2</li>
-          <li>3</li>
-          <li>4</li>
-          <li>5</li>
-          <li>6</li>
-          <li>7</li>
+          <li><input type="button" />2</li>
+          <li><input type="button" />3</li>
+          <li><input type="button" />4</li>
+          <li><input type="button" />5</li>
+          <li><input type="button" />6</li>
+          <li><input type="button" />7</li>
         </ul>
       </section>
     );
