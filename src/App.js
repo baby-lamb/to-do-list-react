@@ -21,8 +21,8 @@ class App extends Component {
       <div className="App">
         <MainHeader data={this.state.contents}></MainHeader>
         <ContentsTodolist></ContentsTodolist>
-        <ContentsChecklist></ContentsChecklist>
-        <ContentsCalender></ContentsCalender>
+        // <ContentsChecklist></ContentsChecklist>
+        // <ContentsCalender></ContentsCalender>
       </div>
     );
   }
